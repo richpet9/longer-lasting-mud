@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="96">
+    <author>RichOPick</author>
+    <version>1.0.0.0</version>
+	<title>
+        <en>Longer Lasting Mud</en>
+        <de>Länger Anhaltender Schlamm</de>
+        <pl>Więcej czasu Błoto</pl>
+        <ru>Более длительная грязь</ru>
+        <fr>Boue Plus Durable</fr>
+        <it>Fango più Duraturo</it>
+        <es>Barro Más Duradero</es>
+    </title>
+    <description>
+        <en><![CDATA[Longer Lasting Mud.
+
+This mod adds a game option which allows you to control how long mud should remain visible on wheels, using a linear multiplier.
+
+I've always loved the look of muddy tires, and felt the game cleaned them up too quickly when driving off the field. This mod
+keeps the tires muddy for more time (or less, depending on your configuration).
+
+In the 'General Settings' tab you will find the 'Mud length multiplier' setting. This option sets the multiplier for how long mud
+should remain on the wheels after driving off a field. Larger numbers make the mud last longer. The mod's value default is 5.0. The
+game's default value is 1.0.
+
+Under-the-hood, this mod divides the off-field multiple for cleaning wheels (a negative value) by the multiple provided in the settings.
+
+Please leave bug reports, feedback, or suggestions on my GitHub: XXX.
+
+Thanks to Farmsim Tim, Shad0wlife, and other developers for contributing to the UIHelper library, used by this mod.
+]]></en>
+    <de><![CDATA[Länger Anhaltender Schlamm.
+
+Dieser Mod fügt eine Spieloption hinzu, mit der ihr mithilfe eines linearen Multiplikators steuern könnt, wie lange Schlamm auf den
+Rädern sichtbar bleiben soll.
+
+Ich mochte schon immer den Anblick schlammiger Reifen und fand, dass das Spiel sie beim Verlassen des Feldes zu schnell reinigte. Dieser
+Mod hält die Reifen länger (oder kürzer, je nach Konfiguration).
+
+Im Reiter „Allgemeine Einstellungen“ findet ihr die Einstellung „Schlammlängenmultiplikator“. Diese Option legt den Multiplikator fest,
+wie lange Schlamm nach dem Verlassen des Feldes auf den Rädern bleiben soll. Höhere Werte verlängern die Schlammdauer. Der Standardwert
+des Mods ist 5,0. Der Standardwert des Spiels ist 1,0.
+
+Im Hintergrund dividiert dieser Mod den Multiplikator für die Reinigung der Räder außerhalb des Feldes (ein negativer Wert) durch den
+in den Einstellungen angegebenen Multiplikator.
+
+Bitte hinterlasst Fehlerberichte, Feedback und Vorschläge auf meinem GitHub: XXX.
+
+Danke an Farmsim Tim, Shad0wlife und andere Entwickler für ihre Beiträge zur UIHelper-Bibliothek, die von diesem Mod verwendet wird.
+]]></de>
+    <pl><![CDATA[Więcej czasu Błoto.
+
+Ten mod dodaje opcję gry, która pozwala kontrolować, jak długo błoto powinno być widoczne na kołach, za pomocą liniowego mnożnika.
+
+Zawsze podobał mi się wygląd błotnistych opon i czułem, że gra zbyt szybko je czyściła podczas zjeżdżania z pola. Ten mod
+utrzymuje opony w błocie przez dłuższy czas (lub krócej, w zależności od konfiguracji).
+
+Na karcie „Ustawienia ogólne” znajdziesz ustawienie „Mnożnik długości błota”. Ta opcja ustawia mnożnik określający, jak długo błoto
+powinno pozostać na kołach po zjechaniu z pola. Większe liczby sprawiają, że błoto utrzymuje się dłużej. Domyślna wartość moda to 5,0.
+Domyślna wartość gry to 1,0.
+
+Pod maską ten mod dzieli wielokrotność poza polem do czyszczenia kół (wartość ujemna) przez wielokrotność podaną w ustawieniach.
+
+Prosimy o przesyłanie raportów o błędach, opinii lub sugestii na moim GitHub: XXX.
+
+Dziękujemy Farmsim Tim, Shad0wlife i innym programistom za wkład w bibliotekę UIHelper, wykorzystywaną w tym modzie.
+]]></pl>
+    <ru><![CDATA[Более длительная грязь.
+
+Этот мод добавляет в игру опцию, которая позволяет вам контролировать, как долго грязь должна оставаться видимой на колесах, используя
+линейный множитель.
+
+Мне всегда нравился вид грязных шин, и я чувствовал, что игра очищает их слишком быстро при выезде с поля. Этот мод
+сохраняет шины грязными дольше (или меньше, в зависимости от вашей конфигурации).
+
+На вкладке «Общие настройки» вы найдете настройку «Множитель длины грязи». Эта опция устанавливает множитель того, как долго грязь
+должна оставаться на колесах после выезда с поля. Большие числа делают грязь более долговечной. Значение мода по умолчанию — 5,0.
+Значение игры по умолчанию — 1,0.
+
+Под капотом этот мод делит множитель вне поля для очистки колес (отрицательное значение) на множитель, указанный в настройках.
+
+Пожалуйста, оставляйте отчеты об ошибках, отзывы или предложения на моем GitHub: XXX.
+
+Спасибо Farmsim Tim, Shad0wlife и другим разработчикам за вклад в библиотеку UIHelper, используемую в этом моде.
+]]></ru>
+    <fr><![CDATA[Boue Plus Durable.
+
+Ce mod ajoute une option de jeu permettant de contrôler la durée pendant laquelle la boue doit rester visible sur les roues, grâce à
+un multiplicateur linéaire.
+
+J'ai toujours adoré l'aspect des pneus boueux, et je trouvais que le jeu les nettoyait trop vite en sortie de terrain. Ce mod
+garde les pneus boueux plus longtemps (ou moins longtemps, selon votre configuration).
+
+Dans l'onglet « Paramètres généraux », vous trouverez le paramètre « Multiplicateur de longueur de boue ». Cette option définit le
+multiplicateur de durée pendant laquelle la boue doit rester sur les roues après avoir quitté le terrain. Plus le nombre est élevé,
+plus la boue dure longtemps. La valeur par défaut du mod est de 5,0. La valeur par défaut du jeu est de 1,0.
+
+En pratique, ce mod divise le multiple hors terrain pour le nettoyage des roues (une valeur négative) par le multiple fourni dans
+les paramètres.
+
+N'hésitez pas à signaler des bugs, à laisser vos commentaires ou à suggérer des solutions sur mon GitHub : XXX.
+
+Merci à Farmsim Tim, Shad0wlife et aux autres développeurs pour leur contribution à la bibliothèque UIHelper, utilisée par ce mod.
+]]></fr>
+    <it><![CDATA[Fango più Duraturo.
+
+Questa mod aggiunge un'opzione di gioco che permette di controllare per quanto tempo il fango deve rimanere visibile sulle ruote,
+utilizzando un moltiplicatore lineare.
+
+Ho sempre amato l'aspetto delle gomme infangate e ho avuto l'impressione che il gioco le pulisse troppo velocemente quando si guida
+fuori dal campo. Questa mod mantiene le gomme infangate più a lungo (o meno, a seconda della configurazione).
+
+Nella scheda "Impostazioni generali" troverete l'impostazione "Moltiplicatore lunghezza fango". Questa opzione imposta il moltiplicatore
+per quanto tempo il fango deve rimanere sulle ruote dopo aver guidato fuori dal campo. Valori più alti aumentano la durata del fango.
+Il valore predefinito della mod è 5,0. Il valore predefinito del gioco è 1,0.
+
+Di fatto, questa mod divide il moltiplicatore fuori dal campo per la pulizia delle ruote (un valore negativo) per il multiplo specificato
+nelle impostazioni.
+
+Inviate segnalazioni di bug, feedback o suggerimenti sul mio GitHub: XXX.
+
+Grazie a Farmsim Tim, Shad0wlife e altri sviluppatori per aver contribuito alla libreria UIHelper, utilizzata da questa mod.
+]]></it>
+    <es><![CDATA[Barro más Duradero.
+
+Este mod añade una opción de juego que permite controlar cuánto tiempo debe permanecer el barro visible en las ruedas mediante un
+multiplicador lineal.
+
+Siempre me ha gustado el aspecto de los neumáticos embarrados y sentía que el juego los limpiaba demasiado rápido al salir del
+campo. Este mod mantiene los neumáticos embarrados durante más tiempo (o menos, según la configuración).
+
+En la pestaña "Configuración general", encontrarás la opción "Multiplicador de longitud de barro". Esta opción establece el
+multiplicador de cuánto tiempo debe permanecer el barro en las ruedas después de salir del campo. Los valores más altos hacen que
+el barro dure más. El valor predeterminado del mod es 5.0. El valor predeterminado del juego es 1.0.
+
+En esencia, este mod divide el múltiplo de limpieza de ruedas fuera del campo (un valor negativo) entre el múltiplo proporcionado
+en la configuración.
+
+Por favor, deja tus informes de errores, comentarios o sugerencias en mi GitHub: XXX.
+
+Gracias a Farmsim Tim, Shad0wlife y otros desarrolladores por contribuir a la biblioteca UIHelper, utilizada por este mod.
+]]></es>
+    </description>
+    <iconFilename>icon_llm.dds</iconFilename>
+    <multiplayer supported="false" />
+
+	<extraSourceFiles>
+        <sourceFile filename="lib/UIHelper.lua" />
+		<sourceFile filename="LongerLastingMudSettings.lua" />
+		<sourceFile filename="LongerLastingMud.lua" />
+	</extraSourceFiles>
+
+    <l10n>
+        <text name="rp_llm_streetMultiplier_short">
+            <en>Mud length multiplier</en>
+            <de>Schlammlängenmultiplikator</de>
+            <pl>Mnożnik długości błota</pl>
+            <ru>Множитель длины грязи</ru>
+            <fr>Multiplicateur de longueur de boue</fr>
+            <it>Moltiplicatore di lunghezza del fango</it>
+            <es>Multiplicador de longitud de lodo</es>
+        </text>
+        <text name="rp_llm_streetMultiplier_long">
+            <en>Sets the multiplier for how long mud should remain on the wheels after driving off a field. Larger numbers make the mud last longer. 1.0 is the game default.</en>
+            <de>Legt den Multiplikator fest, wie lange Schlamm nach dem Verlassen eines Feldes an den Rädern haften bleiben soll. Höhere Werte verlängern die Schlammhaftung. 1,0 ist der Spielstandard.</de>
+            <pl>Ustawia mnożnik określający, jak długo błoto powinno pozostać na kołach po zjechaniu z pola. Większe liczby sprawiają, że błoto utrzymuje się dłużej. Domyślnym ustawieniem w grze jest 1.0.</pl>
+            <ru>Устанавливает множитель того, как долго грязь должна оставаться на колесах после выезда с поля. Большие числа делают грязь более долговечной. 1.0 — значение по умолчанию в игре.</ru>
+            <fr>Définit le multiplicateur de durée pendant laquelle la boue doit rester sur les roues après avoir quitté le terrain. Plus le nombre est élevé, plus la boue reste longtemps sur les roues. La valeur par défaut du jeu est 1,0.</fr>
+            <it>Imposta il moltiplicatore per la durata del fango sulle ruote dopo aver lasciato un campo. Valori più alti aumentano la durata del fango. 1.0 è l'impostazione predefinita del gioco.</it>
+            <es>Establece el multiplicador que indica cuánto tiempo debe permanecer el barro en las ruedas tras salir del campo. Un número mayor prolonga la duración del barro. 1.0 es el valor predeterminado del juego.</es>
+        </text>
+        <text name="rp_llm_settings_section_title">
+            <en>Longer Lasting Mud Settings</en>
+            <de>Länger anhaltende Schlammeinstellungen</de>
+            <pl>Dłużej utrzymujące się ustawienia błota</pl>
+            <ru>Более долговечные настройки грязи</ru>
+            <fr>Réglages de boue plus durables</fr>
+            <it>Impostazioni di fango più durature</it>
+            <es>Configuraciones de barro más duraderas</es>
+        </text>
+    </l10n>
+</modDesc>
