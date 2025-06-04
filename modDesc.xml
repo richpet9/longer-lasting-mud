@@ -25,7 +25,7 @@ game's default value is 1.0.
 
 Under-the-hood, this mod divides the off-field multiple for cleaning wheels (a negative value) by the multiple provided in the settings.
 
-Please leave bug reports, feedback, or suggestions on my GitHub: XXX.
+Please leave bug reports, feedback, or suggestions on my GitHub: https://github.com/richpet9/longer-lasting-mud.
 
 Thanks to Farmsim Tim, Shad0wlife, and other developers for contributing to the UIHelper library, used by this mod.
 ]]></en>
@@ -44,7 +44,7 @@ des Mods ist 5,0. Der Standardwert des Spiels ist 1,0.
 Im Hintergrund dividiert dieser Mod den Multiplikator für die Reinigung der Räder außerhalb des Feldes (ein negativer Wert) durch den
 in den Einstellungen angegebenen Multiplikator.
 
-Bitte hinterlasst Fehlerberichte, Feedback und Vorschläge auf meinem GitHub: XXX.
+Bitte hinterlasst Fehlerberichte, Feedback und Vorschläge auf meinem GitHub: https://github.com/richpet9/longer-lasting-mud.
 
 Danke an Farmsim Tim, Shad0wlife und andere Entwickler für ihre Beiträge zur UIHelper-Bibliothek, die von diesem Mod verwendet wird.
 ]]></de>
@@ -61,7 +61,7 @@ Domyślna wartość gry to 1,0.
 
 Pod maską ten mod dzieli wielokrotność poza polem do czyszczenia kół (wartość ujemna) przez wielokrotność podaną w ustawieniach.
 
-Prosimy o przesyłanie raportów o błędach, opinii lub sugestii na moim GitHub: XXX.
+Prosimy o przesyłanie raportów o błędach, opinii lub sugestii na moim GitHub: https://github.com/richpet9/longer-lasting-mud.
 
 Dziękujemy Farmsim Tim, Shad0wlife i innym programistom za wkład w bibliotekę UIHelper, wykorzystywaną w tym modzie.
 ]]></pl>
@@ -79,7 +79,7 @@ Dziękujemy Farmsim Tim, Shad0wlife i innym programistom za wkład w bibliotekę
 
 Под капотом этот мод делит множитель вне поля для очистки колес (отрицательное значение) на множитель, указанный в настройках.
 
-Пожалуйста, оставляйте отчеты об ошибках, отзывы или предложения на моем GitHub: XXX.
+Пожалуйста, оставляйте отчеты об ошибках, отзывы или предложения на моем GitHub: https://github.com/richpet9/longer-lasting-mud.
 
 Спасибо Farmsim Tim, Shad0wlife и другим разработчикам за вклад в библиотеку UIHelper, используемую в этом моде.
 ]]></ru>
@@ -91,14 +91,14 @@ un multiplicateur linéaire.
 J'ai toujours adoré l'aspect des pneus boueux, et je trouvais que le jeu les nettoyait trop vite en sortie de terrain. Ce mod
 garde les pneus boueux plus longtemps (ou moins longtemps, selon votre configuration).
 
-Dans l'onglet « Paramètres généraux », vous trouverez le paramètre « Multiplicateur de longueur de boue ». Cette option définit le
+Dans l'onglet «Paramètres généraux», vous trouverez le paramètre «Multiplicateur de longueur de boue». Cette option définit le
 multiplicateur de durée pendant laquelle la boue doit rester sur les roues après avoir quitté le terrain. Plus le nombre est élevé,
 plus la boue dure longtemps. La valeur par défaut du mod est de 5,0. La valeur par défaut du jeu est de 1,0.
 
 En pratique, ce mod divise le multiple hors terrain pour le nettoyage des roues (une valeur négative) par le multiple fourni dans
 les paramètres.
 
-N'hésitez pas à signaler des bugs, à laisser vos commentaires ou à suggérer des solutions sur mon GitHub : XXX.
+N'hésitez pas à signaler des bugs, à laisser vos commentaires ou à suggérer des solutions sur mon GitHub: https://github.com/richpet9/longer-lasting-mud.
 
 Merci à Farmsim Tim, Shad0wlife et aux autres développeurs pour leur contribution à la bibliothèque UIHelper, utilisée par ce mod.
 ]]></fr>
@@ -117,7 +117,7 @@ Il valore predefinito della mod è 5,0. Il valore predefinito del gioco è 1,0.
 Di fatto, questa mod divide il moltiplicatore fuori dal campo per la pulizia delle ruote (un valore negativo) per il multiplo specificato
 nelle impostazioni.
 
-Inviate segnalazioni di bug, feedback o suggerimenti sul mio GitHub: XXX.
+Inviate segnalazioni di bug, feedback o suggerimenti sul mio GitHub: https://github.com/richpet9/longer-lasting-mud.
 
 Grazie a Farmsim Tim, Shad0wlife e altri sviluppatori per aver contribuito alla libreria UIHelper, utilizzata da questa mod.
 ]]></it>
@@ -136,7 +136,7 @@ el barro dure más. El valor predeterminado del mod es 5.0. El valor predetermin
 En esencia, este mod divide el múltiplo de limpieza de ruedas fuera del campo (un valor negativo) entre el múltiplo proporcionado
 en la configuración.
 
-Por favor, deja tus informes de errores, comentarios o sugerencias en mi GitHub: XXX.
+Por favor, deja tus informes de errores, comentarios o sugerencias en mi GitHub: https://github.com/richpet9/longer-lasting-mud.
 
 Gracias a Farmsim Tim, Shad0wlife y otros desarrolladores por contribuir a la biblioteca UIHelper, utilizada por este mod.
 ]]></es>
