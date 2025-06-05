@@ -56,6 +56,10 @@ function LongerLastingMudSettings:addSettingsUiToGame()
     UIHelper.setupAutoBindControls(self, self.settings)
 
     LongerLastingMudSettings.isUiAdded = true
+
+    if LongerLastingMud.__DEBUG__ then
+        print("LongerLastingMud: Added settings UI to the game.")
+    end
 end
 
 function LongerLastingMudSettings:loadSettingsFromXml()
@@ -85,6 +89,10 @@ function LongerLastingMudSettings:loadSettingsFromXml()
     local streetMultiplier = getXMLFloat(xmlFileId, "LongerLastingMud.streetMultiplier") or
                                  self.settings[LongerLastingMudSettings.STREET_MULTIPLER_KEY]
 
+    if LongerLastingMud.__DEBUG__ then
+        print(("LongerLastingMud: Loaded streetMultiplier from XML: %s"):format(streetMultiplier))
+    end
+
     self.settings[LongerLastingMudSettings.STREET_MULTIPLER_KEY] =
         math.min(math.max(streetMultiplier, LongerLastingMudSettings.VALUE_MIN), LongerLastingMudSettings.VALUE_MAX)
 
@@ -105,20 +113,22 @@ function LongerLastingMudSettings:saveSettingsToXml(settings)
         return -- This is a new savegame, so there's no savegame dir.
     end
 
-    -- Create an empty XML file in memory
+    -- Create an empty XML file in memory.
     local xmlFileId = createXMLFile("LongerLastingMud", xmlFilePath, "LongerLastingMud")
 
     -- Add XML data in memory
     setXMLFloat(xmlFileId, "LongerLastingMud.streetMultiplier",
                 self.settings[LongerLastingMudSettings.STREET_MULTIPLER_KEY] or -1)
 
-    -- Write the XML file to disk
+    -- Write the XML file to disk.
     saveXMLFile(xmlFileId)
 
     -- Important: this ensures we don't keep re-writing the settings when the Menu closes.
     self.settingsFromXml = self:getSettingsCopy()
 
-    print("LongerLastingMud: Changed settings saved to XML.")
+    if LongerLastingMud.__DEBUG__ then
+        print(("LongerLastingMud: Changed settings saved to XML: %s"):format(xmlFilePath))
+    end
 end
 
 function LongerLastingMudSettings:getSettingsCopy()

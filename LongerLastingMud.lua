@@ -10,6 +10,7 @@ source(g_currentModDirectory .. "LongerLastingMud.lua")
 
 LongerLastingMud = {}
 LongerLastingMud.settings = LongerLastingMudSettings.new()
+LongerLastingMud.__DEBUG__ = false
 
 -- Executed for each wheel in the savegame during savegame load.
 WheelPhysics.finalize = Utils.appendedFunction(WheelPhysics.finalize, function(self, ...)
@@ -20,6 +21,7 @@ WheelPhysics.finalize = Utils.appendedFunction(WheelPhysics.finalize, function(s
     end
 end)
 
+-- Executed once per tick for each wheel the player is near.
 WheelPhysics.serverUpdate = Utils.appendedFunction(WheelPhysics.serverUpdate, function(self, ...)
     if self.streetDirtMultiplier ~= nil and self.streetDirtMultiplierDefault ~= nil then
         local newDivisor = LongerLastingMud.settings:getStreetMultipler()
@@ -40,9 +42,18 @@ InGameMenu.onClose = Utils.appendedFunction(InGameMenu.onClose, function(...)
     LongerLastingMud.settings:maybeSaveSettingsToXml()
 end)
 
+-- Executed when saving the game.
+ItemSystem.save = Utils.appendedFunction(ItemSystem.save, function(...)
+    LongerLastingMud.settings:saveSettingsToXml()
+end)
+
 -- Helper function which sets the dirt multiplier based on user setting.
 function WheelPhysics:setNewStreetDirtMultiplier()
     if self.streetDirtMultiplierDefault ~= nil then
         self.streetDirtMultiplier = self.streetDirtMultiplierDefault / self.streetDirtMultiplierDivisor
+        if LongerLastingMud.__DEBUG__ then
+            print(("LongerLastingMud: Set streetDirtMultiplier to %s (divisor=%s)"):format(self.streetDirtMultiplier,
+                                                                                           self.streetDirtMultiplierDivisor))
+        end
     end
 end
