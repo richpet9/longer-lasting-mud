@@ -6,8 +6,6 @@
 -- with the written consent of the author, Richard Petrosino. This work may
 -- be reproduced and/or redstributed by GIANTS Software GmbH. for any purpose.
 -- The author can be contacted at: https://github.com/richpet9
-source(g_currentModDirectory .. "LongerLastingMud.lua")
-
 LongerLastingMud = {}
 LongerLastingMud.settings = LongerLastingMudSettings.new()
 LongerLastingMud.__DEBUG__ = false

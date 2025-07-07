@@ -14,7 +14,7 @@ LongerLastingMudSettings.STREET_MULTIPLER_KEY = "streetMultiplier"
 
 LongerLastingMudSettings.VALUE_DEFAULT = 5.0
 LongerLastingMudSettings.VALUE_MIN = 0.5
-LongerLastingMudSettings.VALUE_MAX = 10.0
+LongerLastingMudSettings.VALUE_MAX = 15.0
 
 LongerLastingMudSettings.CONTROL = {
     name = LongerLastingMudSettings.STREET_MULTIPLER_KEY,

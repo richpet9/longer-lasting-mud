@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="96">
+<modDesc descVersion="99">
     <author>RichOPick</author>
     <version>1.0.0.0</version>
 	<title>
         <en>Longer Lasting Mud</en>
         <de>Länger Anhaltender Schlamm</de>
-        <pl>Więcej czasu Błoto</pl>
-        <ru>Более длительная грязь</ru>
+        <pl>Więcej Czasu Błoto</pl>
+        <ru>Более Длительная Грязь</ru>
         <fr>Boue Plus Durable</fr>
-        <it>Fango più Duraturo</it>
+        <it>Fango Più Duraturo</it>
         <es>Barro Más Duradero</es>
     </title>
     <description>
