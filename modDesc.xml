@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="99">
+<modDesc descVersion="100">
     <author>RichOPick</author>
     <version>1.0.0.0</version>
 	<title>
@@ -26,8 +26,6 @@ game's default value is 1.0.
 Under-the-hood, this mod divides the off-field multiple for cleaning wheels (a negative value) by the multiple provided in the settings.
 
 Please leave bug reports, feedback, or suggestions on my GitHub: https://github.com/richpet9/longer-lasting-mud.
-
-Thanks to Farmsim Tim, Shad0wlife, and other developers for contributing to the UIHelper library, used by this mod.
 ]]></en>
     <de><![CDATA[Länger Anhaltender Schlamm.
 
@@ -45,8 +43,6 @@ Im Hintergrund dividiert dieser Mod den Multiplikator für die Reinigung der Rä
 in den Einstellungen angegebenen Multiplikator.
 
 Bitte hinterlasst Fehlerberichte, Feedback und Vorschläge auf meinem GitHub: https://github.com/richpet9/longer-lasting-mud.
-
-Danke an Farmsim Tim, Shad0wlife und andere Entwickler für ihre Beiträge zur UIHelper-Bibliothek, die von diesem Mod verwendet wird.
 ]]></de>
     <pl><![CDATA[Więcej czasu Błoto.
 
@@ -62,8 +58,6 @@ Domyślna wartość gry to 1,0.
 Pod maską ten mod dzieli wielokrotność poza polem do czyszczenia kół (wartość ujemna) przez wielokrotność podaną w ustawieniach.
 
 Prosimy o przesyłanie raportów o błędach, opinii lub sugestii na moim GitHub: https://github.com/richpet9/longer-lasting-mud.
-
-Dziękujemy Farmsim Tim, Shad0wlife i innym programistom za wkład w bibliotekę UIHelper, wykorzystywaną w tym modzie.
 ]]></pl>
     <ru><![CDATA[Более длительная грязь.
 
@@ -80,8 +74,6 @@ Dziękujemy Farmsim Tim, Shad0wlife i innym programistom za wkład w bibliotekę
 Под капотом этот мод делит множитель вне поля для очистки колес (отрицательное значение) на множитель, указанный в настройках.
 
 Пожалуйста, оставляйте отчеты об ошибках, отзывы или предложения на моем GitHub: https://github.com/richpet9/longer-lasting-mud.
-
-Спасибо Farmsim Tim, Shad0wlife и другим разработчикам за вклад в библиотеку UIHelper, используемую в этом моде.
 ]]></ru>
     <fr><![CDATA[Boue Plus Durable.
 
@@ -99,8 +91,6 @@ En pratique, ce mod divise le multiple hors terrain pour le nettoyage des roues 
 les paramètres.
 
 N'hésitez pas à signaler des bugs, à laisser vos commentaires ou à suggérer des solutions sur mon GitHub: https://github.com/richpet9/longer-lasting-mud.
-
-Merci à Farmsim Tim, Shad0wlife et aux autres développeurs pour leur contribution à la bibliothèque UIHelper, utilisée par ce mod.
 ]]></fr>
     <it><![CDATA[Fango più Duraturo.
 
@@ -118,8 +108,6 @@ Di fatto, questa mod divide il moltiplicatore fuori dal campo per la pulizia del
 nelle impostazioni.
 
 Inviate segnalazioni di bug, feedback o suggerimenti sul mio GitHub: https://github.com/richpet9/longer-lasting-mud.
-
-Grazie a Farmsim Tim, Shad0wlife e altri sviluppatori per aver contribuito alla libreria UIHelper, utilizzata da questa mod.
 ]]></it>
     <es><![CDATA[Barro más Duradero.
 
@@ -137,8 +125,6 @@ En esencia, este mod divide el múltiplo de limpieza de ruedas fuera del campo (
 en la configuración.
 
 Por favor, deja tus informes de errores, comentarios o sugerencias en mi GitHub: https://github.com/richpet9/longer-lasting-mud.
-
-Gracias a Farmsim Tim, Shad0wlife y otros desarrolladores por contribuir a la biblioteca UIHelper, utilizada por este mod.
 ]]></es>
     </description>
     <iconFilename>icon_llm.dds</iconFilename>
